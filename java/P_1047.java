@@ -11,9 +11,7 @@ public class P_1047 {
 
         int duracaoMinutos = (horaFinal * 60) + minutoFinal - (horaInicial * 60) - minutoInicial;
 
-    	if(horaInicial > horaFinal) {
-            duracaoMinutos += 1440;
-    	} else if(horaInicial == horaFinal && minutoInicial >= minutoFinal) {
+    	if(horaInicial > horaFinal || horaInicial == horaFinal && minutoInicial >= minutoFinal) {
             duracaoMinutos += 1440;
     	}
 

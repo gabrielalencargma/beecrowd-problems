@@ -16,7 +16,8 @@ public class P_1066 {
             
             if(valor > 0) {
                 valPositivos++;
-            } else if(valor < 0) {
+            } 
+            if(valor < 0) {
                 valNegativos++;
             }
         }

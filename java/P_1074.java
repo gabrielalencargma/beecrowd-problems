@@ -20,7 +20,8 @@ public class P_1074 {
 
                 if (x > 0) { 
                     System.out.printf("POSITIVE\n");
-                } else {
+                } 
+                if (x < 0) {
                     System.out.printf("NEGATIVE\n");
                 }
             }
