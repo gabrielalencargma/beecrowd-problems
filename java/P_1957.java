@@ -6,6 +6,6 @@ public class P_1957 {
 
         int v = leia.nextInt();
 
-        System.out.printf("%X%n", v);
+        System.out.printf("%X\n", v);
     }
 }

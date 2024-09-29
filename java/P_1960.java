@@ -16,6 +16,6 @@ public class P_1960 {
             }
         }
         
-        System.out.printf("%s%n", sb.toString());
+        System.out.printf("%s\n", sb.toString());
     }
 }
