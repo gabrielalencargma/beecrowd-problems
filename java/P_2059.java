@@ -1,6 +1,6 @@
 import java.util.*;
 
-class P_2059 {
+public class P_2059 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
 

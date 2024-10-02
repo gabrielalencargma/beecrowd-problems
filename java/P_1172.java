@@ -1,20 +1,21 @@
 import java.util.*;
 
-public class P_1173 {
+public class P_1172 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         StringBuilder sb = new StringBuilder();
-        int[] n = new int[10];
+        int[] x = new int[10];
 
-        n[0] = leia.nextInt();
-        
         for(int i=0; i<10; i++) {
-            if(i != 0) {
-                n[i] = n[i-1] * 2;
+            x[i] = leia.nextInt();
+
+            if(x[i] <= 0) {
+                x[i] = 1;
             }
-            sb.append(String.format("N[%d] = %d\n", i, n[i]));
+
+            sb.append(String.format("X[%d] = %d\n", i, x[i]));
         }
-        
+
         System.out.print(sb.toString());
     }
 }

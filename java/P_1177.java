@@ -1,6 +1,6 @@
 import java.util.*;
 
-class P_1177 {
+public class P_1177 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         StringBuilder sb = new StringBuilder();

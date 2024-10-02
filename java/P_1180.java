@@ -1,6 +1,6 @@
 import java.util.*;
 
-class P_1180 {
+public class P_1180 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         int valMenor = Integer.MAX_VALUE, valPosicao = 0;
